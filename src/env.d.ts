@@ -6,3 +6,8 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+interface VITE_API_BASEURL {
+  VITE_APP_TITLE: string
+  // 更多环境变量...
+}

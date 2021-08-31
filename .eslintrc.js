@@ -17,5 +17,14 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
-  }
+  },
+  overrides: [
+   {
+    files: ['src/api/**/*.ts'],
+    rules: {
+      //指定文件忽略驼峰写法
+      camelcase: 'off'
+    }
+   }
+  ]
 }
