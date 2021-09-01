@@ -1,15 +1,7 @@
 <template>
-  <h1>首页</h1>
-  <!-- <h1>{{ $store }}</h1> -->
-  {{$store.state.count}}
+  <h1>首页123</h1>
 </template>
 
-<script lang="ts" setup>
-import { useStore } from '../../store'
+<script lang="ts" setup></script>
 
-const store = useStore()
-console.log(store.state.count);
-
-console.log(store.state.count);
-
-</script> 
+<style lang="scss" scoped></style>
